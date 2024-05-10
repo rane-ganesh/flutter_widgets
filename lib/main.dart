@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/widgets/container_sizedbox.dart';
+import 'package:flutter_widgets/widgets/rowscols.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         // brightness: Brightness.dark,
         primaryColor: Colors.deepPurple,
       ),
-      home: const ContainerSizedbox(),
+      home: const RowsCols(),
       debugShowCheckedModeBanner: false,
     );
   }
